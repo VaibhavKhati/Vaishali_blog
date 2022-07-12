@@ -1,9 +1,11 @@
 import React, { useContext } from "react";
 import Link from "next/link";
+import { getPosts } from "../services";
 
 const categories = [
   { name: "React", slug: "react" },
   { name: "Node", slug: "node" },
+  { name: "Management", slug: "management" },
 ];
 
 const Header = () => {
